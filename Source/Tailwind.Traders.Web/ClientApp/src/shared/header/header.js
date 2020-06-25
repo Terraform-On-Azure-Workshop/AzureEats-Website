@@ -102,7 +102,7 @@ class Header extends Component {
                 {t => (
                     <header className="header">
                         <Link to="/">
-                            <Logo />
+                            {/* <Logo /> */}
                         </Link>
                         <nav className={this.state.isopened ? 'main-nav is-opened' : 'main-nav'}>
                             <Link className="main-nav__item" to="/list/mooncheese">
